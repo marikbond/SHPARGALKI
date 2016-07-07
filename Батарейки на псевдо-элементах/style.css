@@ -1,0 +1,98 @@
+
+
+.low, .middle, .high {
+    height: 40px;
+    width: 120px;
+    border: 4px solid black;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.low::before {
+    display: block;
+    content: '';
+    height: 100%;
+    width: 33%;
+    background-color: red;
+}
+
+.middle::before {
+    display: block;
+    content: '';
+    height: 100%;
+    width: 66%;
+    background-color: orange;
+}
+
+.high::before {
+    display: block;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: green;
+}
+
+.low::after, 
+.middle::after,
+.high::after {
+    display: block;
+    content: '';
+    width: 7px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: -11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+.low, .middle, .high {
+    height: 40px;
+    width: 120px;
+    border: 4px solid black;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.low div:first-child {
+    height: 100%;
+    width: 33%;
+    background-color: red;
+}
+
+.middle div:first-child {
+    height: 100%;
+    width: 66%;
+    background-color: orange;
+}
+
+.high div:first-child {
+    height: 100%;
+    width: 100%;
+    background-color: green;
+}
+
+.low div:last-child, 
+.middle div:last-child,
+.high div:last-child{
+    width: 7px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: -11px;
+}*/

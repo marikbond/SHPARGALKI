@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin:  0;
+    height: 100%;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid black;
+    vertical-align: top;
+    text-align: left;
+}
+
+img {
+    width: 100px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.menu td {
+    width: 16.3333%;
+    height: 40px;
+    background-color: #FDF5E6;
+}
+
+.header {
+    height: 100px;
+    background-color: #A5B4CE;
+}
+
+.vertical-menu {
+    border-collapse: separate;
+    width: 100%;
+}
+
+.vertical-menu td {
+    background-color: #FDF5E6;
+    padding: 7px;  
+    border: none;
+}
+
+.left-side {
+    background-color: #A5B4CE;
+}
+
+
+.main-table {
+    height: 100%;
+}

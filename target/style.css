@@ -1,0 +1,40 @@
+.pink-background {
+    height: 240px;
+    width: 240px;
+    background-color: #E51875;
+    position: relative;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: #FAB250;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -75px;
+}
+
+.ver-line {
+    width: 40px;
+    height: 5px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    margin-left: -20px;
+    margin-top: -2.5px;
+}
+
+.hor-line {
+    width: 5px;
+    height: 40px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    margin-left: -2.5px;
+    margin-top: -20px;
+}

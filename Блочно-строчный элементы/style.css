@@ -1,0 +1,31 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin:  0;
+    height: 100%;
+}
+
+
+
+
+.outer {
+    height: 300px;
+    width: 300px;
+    background-color: rebeccapurple;
+    border: 2px solid #FF5722;
+    font-size: 0px;
+}
+
+
+.inner {
+    width: 100px;
+    height: 100px;
+    background: red;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 28px;
+
+}
+

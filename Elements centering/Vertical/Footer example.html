@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/css.css">
+    <style type="text/css">
+        .outer {
+            background-color: darkslateblue;
+        }
+        
+        .outer:after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+        
+        .inner.right  {
+            float: right;
+        }
+        
+        .inner.left {
+            float: left;
+        }
+
+
+
+
+/*        тут line-height: 3em; не влияет на блок inner но это значение 
+        засталяет дочерние элементы наследовать это значение.*/
+        .inner {
+            line-height: 3em;
+            padding: 0 20px;
+            color: white;
+            font-size: 20px;
+        }
+        
+        .inner img {
+            vertical-align: middle;
+            padding: 0 0 0 5px;
+        }
+    </style>
+</head>
+<body>
+	<div class="outer">
+        <div class="inner left">
+            2016 Пример центрирования по вертикали
+        </div>
+        <div class="inner right">
+            Выберите язык
+            <img src="img/CZ_flag.jpg">
+            <img src="img/SK_flag.jpg">
+        </div>
+    </div>
+</body>
+</html>

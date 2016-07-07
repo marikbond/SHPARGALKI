@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/css.css">
+    <style type="text/css">
+        .outer {
+            position: relative;
+            width: 400px;
+            border: 3px solid green;
+            height: 150px;
+        }
+        
+        .inner {
+            position: absolute;
+            left: 50%;
+            top: 50%;   
+            height: 50px;
+            margin-top: 1%;
+            width: 100px;
+            margin-left: -50px;
+            border: 3px solid red;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    // Высота центрируемого элемента должна быть известна
+	<div class="outer">
+        <div class="inner">
+            Текст
+        </div>
+    </div>
+</body>
+</html>

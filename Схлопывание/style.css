@@ -1,0 +1,24 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin:  0;
+    height: 100%;
+    background: black;
+}
+
+#outer {
+    height: 300px;
+    width: 300px;
+    background-color: rebeccapurple;
+    border: 2px solid rgb(255, 87, 34);
+}
+
+#inner {
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin-top: 20px;
+    margin-left: 30px;
+}

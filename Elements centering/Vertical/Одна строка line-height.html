@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/css.css">
+    <style type="text/css">
+        .outer {
+            position: relative;
+            width: 400px;
+            border: 3px solid green;
+            height: 150px;
+        }
+        
+/*      height: 50px; // Высота центрируемого элемента должна быть известна*/
+/*      line-height: 50px; // Растягиваем высоту строки на всю высоту блока*/
+        .inner {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            height: 50px;
+            /*line-height: 50px;*/
+            width: 200px;
+            margin-left: -100px;
+            margin-top: -25px;
+            border: 3px solid red;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<!--
+    // Высота центрируемого элемента должна быть известна
+    // Решает пролему только если текст влазит в одну строку
+-->
+	<div class="outer">
+        <div class="inner">
+            <span>Текст</span>
+        </div>
+    </div>
+</body>
+</html>

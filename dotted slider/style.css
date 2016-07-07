@@ -1,0 +1,64 @@
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.banner-slider input {
+    display: none;
+}
+
+.banner-slider {
+    width: 815px;
+    height: 205px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide-dots {
+    position: absolute;
+    font-size: 0;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -47px;
+    bottom: 10px;
+}
+
+.slide-dots label {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.inner {
+    width: 500%;
+}
+
+.slide-element {
+    float: left;
+    height: 205px;
+}
+
+
+#slide1:checked ~ .slide-dots label:nth-child(1),
+#slide2:checked ~ .slide-dots label:nth-child(2),
+#slide3:checked ~ .slide-dots label:nth-child(3),
+#slide4:checked ~ .slide-dots label:nth-child(4) {
+    background-color: #ff8900;
+}
+
+
+
+#slide1:checked ~ .pictures {margin-left: 0;}
+#slide2:checked ~ .pictures {margin-left: -815px;}
+#slide3:checked ~ .pictures {margin-left: -1630px;}
+#slide4:checked ~ .pictures {margin-left: -2445px;}
+
+.pictures {
+	transition: all 0.8s ease-in-out;
+}
